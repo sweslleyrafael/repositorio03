@@ -3,38 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabalhando com fundos</title>
+    <title>fundos</title>
     <style>
         body{
-            background-image: url("imagens/wallpaper001.jpg");
+            /*fundo com imagem externa*/
+            background-image: url('https://i.pinimg.com/236x/33/09/01/330901f7ac74e708ca0836c7ba1af1c5.jpg');
+            background-size: 300px;
+            background-repeat: no-repeat;
+            
         }
-        div.quadrado{
+        div{
             display: inline-block;
-            background-color: skyblue;
-            border: solid 2px black;
+            background-color: lightgray;
             width: 200px;
             height: 200px;
-            border-radius: 10px;
+
+            border: solid 1px black;
+            border-radius: 5px;
         }
         #q1{
-            background-color: rgb(0, 223, 0);
+            /*fundo com cor solida*/
+            background-color: skyblue;
 
         }
         #q2{
-            background-image: linear-gradient(to right, rgb(0, 255, 21), skyblue);
+            /*fundo com degrade*/
+            background-image: linear-gradient(to right, rgb(75, 75, 255),rgb(97, 250, 97), rgb(255, 255, 55));
             
         }
         #q3{
+            /*fundo com imagem interna*/
             background-image: url('imagens/pattern003.png');
             
         }
+        #q4{
+            /*fundo com imagem interna*/
+            background-image: url('imagens/pattern004.png');
+        }
+        #q5{
+            /*fundo com imagem interna*/
+            background-image: url('imagens/pattern001.png');
+        }
+        #q6{
+            /*fundo com imagem externa*/
+            background-image: url('https://st5.depositphotos.com/35914836/63547/i/450/depositphotos_635479512-stock-photo-brown-wooden-wall-texture-background.jpg');
+            
+        }
+
+
+
+
 
     </style>
 </head>
 <body>
-    <div class="quadrado" id="q1"></div>
-    <div class="quadrado" id="q2"></div>
-    <div class="quadrado" id="q3"></div>
+    <div id="q1"></div>
+    <div id="q2"></div>
+    <div id="q3"></div>
+    <div id="q4"></div>
+    <div id="q5"></div>
+    <div id="q6"></div>
+    
     
 </body>
 </html>
